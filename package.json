@@ -1,0 +1,25 @@
+{
+  "name": "job-scraper",
+  "version": "1.0.0",
+  "description": "A professional web scraper for job listings using Playwright and Crawlee",
+  "main": "jobScraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node jobScraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-scraping",
+    "automation",
+    "job-search",
+    "playwright",
+    "crawlee"
+  ],
+  "author": "Philip J. Fedele",
+  "license": "MIT",
+  "dependencies": {
+    "crawlee": "^3.13.8",
+    "dotenv": "^16.6.0",
+    "playwright": "^1.53.1"
+  }
+}
